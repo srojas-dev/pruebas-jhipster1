@@ -1,2 +1,0 @@
-org.springframework.test.context.ContextCustomizerFactory = a.a.a.config.\
-    TestContainersSpringContextCustomizerFactory

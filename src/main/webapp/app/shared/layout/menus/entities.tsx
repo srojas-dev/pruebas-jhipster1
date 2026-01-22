@@ -6,7 +6,7 @@ import EntitiesMenuItems from 'app/entities/menu';
 export const EntitiesMenu = () => (
   <NavDropdown
     icon="th-list"
-    name="Olemid"
+    name="實體"
     id="entity-menu"
     data-cy="entity"
     style={{ maxHeight: '80vh', overflow: 'auto' }}

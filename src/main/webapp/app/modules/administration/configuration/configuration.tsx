@@ -40,10 +40,10 @@ export const ConfigurationPage = () => {
   return (
     <div>
       <h2 id="configuration-page-heading" data-cy="configurationPageHeading">
-        Konfiguratsioon
+        設定
       </h2>
       <span>
-        Filter (prefiksi alusel)
+        篩選條件 (依據前置名稱)
       </span>{' '}
       <Input type="search" value={filter} onChange={changeFilter} name="search" id="search" />
       <label>Spring configuration</label>
@@ -51,10 +51,10 @@ export const ConfigurationPage = () => {
         <thead>
           <tr>
             <th onClick={changeReversePrefix}>
-              Prefiks
+              前置名稱
             </th>
             <th onClick={changeReverseProperties}>
-              Omadused
+              屬性
             </th>
           </tr>
         </thead>

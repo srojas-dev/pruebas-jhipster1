@@ -103,7 +103,7 @@ module.exports = async (options) => webpackMerge(await commonConfig({ env: ENV }
       reload: false
     }),
     new WebpackNotifierPlugin({
-      title: 'Fghjkl',
+      title: 'Czxczxc',
       contentImage: path.join(__dirname, 'logo-jhipster.png')
     })
   ].filter(Boolean)

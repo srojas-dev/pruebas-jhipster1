@@ -30,7 +30,7 @@
 # - In Eureka mode, the ports are in the jhipster-registry.yml file.
 
 
-name: fghjkl
+name: czxczxc
 services:
   jhipster-control-center:
     image: 'jhipster/jhipster-control-center:v0.5.0'
@@ -44,8 +44,8 @@ services:
       - SPRING_PROFILES_ACTIVE=prod,api-docs,static
       - SPRING_SECURITY_USER_PASSWORD=admin
       # The token should have the same value than the one declared in you Spring configuration under the jhipster.security.authentication.jwt.base64-secret configuration's entry
-      - JHIPSTER_SECURITY_AUTHENTICATION_JWT_BASE64_SECRET=ZmMyMWNkMzYyZDY0M2JjOTA5ODJlZmJlMWZhMGU0NzU3ZThjMWQxZGQ4NTIyZjczZGVmMzI0OWMwZWNhZGIxNzI0MTdlM2M5NmI4NDEzNDE1OGY3OTY4YzlkOGZlMDNjYWNiMWNhMzgzZjgxYmNlZGIwNWY2Yzc3YTRjOWY3MDY=
-      - SPRING_CLOUD_DISCOVERY_CLIENT_SIMPLE_INSTANCES_FGHJKL_0_URI=http://host.docker.internal:8080
+      - JHIPSTER_SECURITY_AUTHENTICATION_JWT_BASE64_SECRET=OWY5YmM5NGVjZjFjNzhiNTc2NTA1MmQwNDJlODdjNGI2MjdlNjdiMTg1NTQxY2RmNDY2ZGE0NTJmNjgwOGJmOWQ5MDJmOWMzYjZiYjUzOGEzOTE2YWFlZDQ3Nzk0MDc1YzAxMjEwYTYwY2NjOWJiZTE1MTU2MDJiYzdjYWFiOWM=
+      - SPRING_CLOUD_DISCOVERY_CLIENT_SIMPLE_INSTANCES_CZXCZXC_0_URI=http://host.docker.internal:8080
       - LOGGING_FILE_NAME=/tmp/jhipster-control-center.log
     # If you want to expose these ports outside your dev PC,
     # remove the "127.0.0.1:" prefix

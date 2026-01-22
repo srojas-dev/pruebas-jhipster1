@@ -38,13 +38,13 @@ export const MetricsPage = () => {
   return (
     <div>
       <h2 id="metrics-page-heading" data-cy="metricsPageHeading">
-        Rakenduse meetrika
+        應用程式資源監控
       </h2>
       <p>
         <Button onClick={getMetrics} color={isFetching ? 'btn btn-danger' : 'btn btn-primary'} disabled={isFetching}>
           <FontAwesomeIcon icon="sync" />
           &nbsp;
-          Värskenda
+          重新整理
         </Button>
       </p>
       <hr />
@@ -52,7 +52,7 @@ export const MetricsPage = () => {
       <Row>
         <Col sm="12">
           <h3>
-            JVM meetrika
+            JVM 資源監控
           </h3>
           <Row>
             <Col md="4">

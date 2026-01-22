@@ -6,7 +6,7 @@ const PageNotFound = () => {
   return (
     <div>
       <Alert color="danger">
-        Lehte ei ole olemas.
+        該頁面不存在。
       </Alert>
     </div>
   );

@@ -33,7 +33,7 @@ export const PrivateRoute = ({ children, hasAnyAuthorities = [], ...rest }: IOwn
     return (
       <div className="insufficient-authority">
         <div className="alert alert-danger">
-          Teil puuduvad õigused selle lehe nägemiseks.
+          您沒有權限存取此頁面。
         </div>
       </div>
     );

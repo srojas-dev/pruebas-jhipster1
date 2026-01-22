@@ -4,10 +4,10 @@
     "authManagement": false,
     "authType": "jwt",
     "authenticationType": "jwt",
-    "baseName": "fghjkl",
+    "baseName": "czxczxc",
     "clientFramework": "react",
-    "creationTimestamp": 1769089232257,
-    "dataBaseName": "fghjkl",
+    "creationTimestamp": 1769089585809,
+    "dataBaseName": "czxczxc",
     "databaseType": "mongodb",
     "devDatabaseType": "mongodb",
     "devServerPort": 9060,
@@ -16,14 +16,14 @@
     "entities": [],
     "frontFramework": "react",
     "internalization": false,
-    "javaPackageName": "e.e.e",
+    "javaPackageName": "f.f.f",
     "jhipsterVersion": "8.1.0",
-    "jwtSecretKey": "ZmMyMWNkMzYyZDY0M2JjOTA5ODJlZmJlMWZhMGU0NzU3ZThjMWQxZGQ4NTIyZjczZGVmMzI0OWMwZWNhZGIxNzI0MTdlM2M5NmI4NDEzNDE1OGY3OTY4YzlkOGZlMDNjYWNiMWNhMzgzZjgxYmNlZGIwNWY2Yzc3YTRjOWY3MDY=",
+    "jwtSecretKey": "OWY5YmM5NGVjZjFjNzhiNTc2NTA1MmQwNDJlODdjNGI2MjdlNjdiMTg1NTQxY2RmNDY2ZGE0NTJmNjgwOGJmOWQ5MDJmOWMzYjZiYjUzOGEzOTE2YWFlZDQ3Nzk0MDc1YzAxMjEwYTYwY2NjOWJiZTE1MTU2MDJiYzdjYWFiOWM=",
     "languages": [
-      "et"
+      "zh-tw"
     ],
-    "nativeLanguage": "et",
-    "packageName": "e.e.e",
+    "nativeLanguage": "zh-tw",
+    "packageName": "f.f.f",
     "prodDatabaseType": "mongodb",
     "skipUserManagement": true
   }

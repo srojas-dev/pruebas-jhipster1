@@ -31,13 +31,13 @@ const LoginModal = (props: ILoginModalProps) => {
   return (
     <Modal isOpen={props.showModal} toggle={handleClose} backdrop="static" id="login-page" autoFocus={false}>
       <Form onSubmit={handleLoginSubmit}>
-          <ModalHeader id="login-title" data-cy="loginTitle" toggle={handleClose}>Logi sisse</ModalHeader>
+          <ModalHeader id="login-title" data-cy="loginTitle" toggle={handleClose}>登入</ModalHeader>
           <ModalBody>
             <Row>
               <Col md="12">
                 { loginError ?
                   <Alert color="danger" data-cy="loginError">
-                    <strong>Sisselogimine ebaõnnestus!</strong> Palun kontrollige kasutajanime ja parooli ning proovige uuesti.
+                    <strong>登入失敗!</strong> 請檢查您的憑證再重試一次。
                   </Alert>
                   : null
                 }
@@ -45,8 +45,8 @@ const LoginModal = (props: ILoginModalProps) => {
               <Col md="12">
                 <ValidatedField
                   name="username"
-                  label="Kasutajanimi"
-                  placeholder="Teie kasutajanimi"
+                  label="帳號"
+                  placeholder="您的帳號"
                   required
                   autoFocus
                   data-cy="username"
@@ -58,8 +58,8 @@ const LoginModal = (props: ILoginModalProps) => {
                 <ValidatedField
                   name="password"
                   type="password"
-                  label="Salasõna"
-                  placeholder="Teie salasõna"
+                  label="密碼"
+                  placeholder="您的密碼"
                   required
                   data-cy="password"
                   validate={{ required: 'Password cannot be empty!' }}
@@ -72,7 +72,7 @@ const LoginModal = (props: ILoginModalProps) => {
                   name="rememberMe"
                   type="checkbox"
                   check
-                  label="Jäta mind meelde"
+                  label="自動登入"
                   value={true}
                   register={register}
                 />
@@ -82,10 +82,10 @@ const LoginModal = (props: ILoginModalProps) => {
           </ModalBody>
           <ModalFooter>
             <Button color="secondary" onClick={handleClose} tabIndex={1}>
-                Katkesta
+                取消
             </Button>
             {' '}
-            <Button color="primary" type="submit" data-cy="submit">Logi sisse</Button>
+            <Button color="primary" type="submit" data-cy="submit">登入</Button>
           </ModalFooter>
         </Form>
       </Modal>

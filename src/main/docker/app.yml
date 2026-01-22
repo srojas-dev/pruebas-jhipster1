@@ -1,13 +1,13 @@
 # This configuration is intended for development purpose, it's **your** responsibility to harden it for production
-name: fghjkl
+name: czxczxc
 services:
   app:
-    image: fghjkl
+    image: czxczxc
     environment:
       - _JAVA_OPTIONS=-Xmx512m -Xms256m
       - SPRING_PROFILES_ACTIVE=prod,api-docs
       - MANAGEMENT_PROMETHEUS_METRICS_EXPORT_ENABLED=true
-      - SPRING_DATA_MONGODB_URI=mongodb://mongodb:27017/fghjkl
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb:27017/czxczxc
     ports:
       - 127.0.0.1:8080:8080
     healthcheck:

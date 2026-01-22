@@ -90,11 +90,11 @@ management:
 
 mongock:
   migration-scan-package:
-    - e.e.e.config.dbmigrations
+    - f.f.f.config.dbmigrations
 
 spring:
   application:
-    name: fghjkl
+    name: czxczxc
   profiles:
     # The commented value for `active` can be replaced with valid Spring profiles to load.
     # Otherwise, it will be filled in by maven when building the JAR file
@@ -124,13 +124,13 @@ spring:
         - USER
   task:
     execution:
-      thread-name-prefix: fghjkl-task-
+      thread-name-prefix: czxczxc-task-
       pool:
         core-size: 2
         max-size: 50
         queue-capacity: 10000
     scheduling:
-      thread-name-prefix: fghjkl-scheduling-
+      thread-name-prefix: czxczxc-scheduling-
       pool:
         size: 2
   thymeleaf:
@@ -161,7 +161,7 @@ info:
 
 jhipster:
   clientApp:
-    name: "fghjklApp"
+    name: "czxczxcApp"
   # By default CORS is disabled. Uncomment to enable.
   # cors:
   #   allowed-origins: "http://localhost:8100,http://localhost:9000"
@@ -171,12 +171,12 @@ jhipster:
   #   allow-credentials: true
   #   max-age: 1800
   mail:
-    from: fghjkl@localhost
+    from: czxczxc@localhost
   api-docs:
     default-include-pattern: /api/**
     management-include-pattern: /management/**
-    title: Fghjkl API
-    description: Fghjkl API documentation
+    title: Czxczxc API
+    description: Czxczxc API documentation
     version: 0.0.1
     terms-of-service-url:
     contact-name:

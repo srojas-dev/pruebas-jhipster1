@@ -16,61 +16,61 @@ export const Home = () => {
         <span className="hipster rounded" />
       </Col>
       <Col md="9">
-        <h1 className="display-4">Tere tulemast, Java Hipster!</h1>
-        <p className="lead">See on teie avaleht</p>
+        <h1 className="display-4">Java 文青，歡迎!</h1>
+        <p className="lead">這裡是您的首頁</p>
         {
           (account?.login) ? (
             <div>
               <Alert color="success">
-                Olete sisse logitud kasutajana &quot;{account.login}&quot;.
+                您目前是用 “{account.login}” 帳號登入。
               </Alert>
             </div>
           ) : (
             <div>
               <Alert color="warning">
-                Kui te soovite 
+                如果您要
                 <span>&nbsp;</span>
-                <Link to="/login" className="alert-link">sisse logida</Link>
-                , siis võite kasutada vaikekontosid:<br/>- Administraator (kasutajanimi=&quot;admin&quot; ja salasõna=&quot;admin&quot;) <br/>- Kasutaja (kasutajanimi=&quot;user&quot; ja salasõna=&quot;user&quot;).
+                <Link to="/login" className="alert-link">登入</Link>
+                ，可以使用預設帳號:<br/>- 管理員 (帳號是 &quot;admin&quot;，密碼是 &quot;admin&quot;) <br/>- 使用者 (帳號 &quot;user&quot;，密碼是 &quot;user&quot;)。
               </Alert>
 
             </div>
           )
         }
         <p>
-          Kui teil on küsimusi JHipster kohta:
+          要是您對 JHipster 有任何疑問，可以到:
         </p>
 
         <ul>
           <li>
             <a href="https://www.jhipster.tech/" target="_blank" rel="noopener noreferrer">
-              JHipster koduleht
+              JHipster 首頁
             </a>
           </li>
           <li>
             <a href="https://stackoverflow.com/tags/jhipster/info" target="_blank" rel="noopener noreferrer">
-              JHipster Stack Overflow-s
+              Stack Overflow 上標有 JHipster 的問題
             </a>
           </li>
           <li>
             <a href="https://github.com/jhipster/generator-jhipster/issues?state=open" target="_blank" rel="noopener noreferrer">
-              JHipster veahaldus
+              JHipster 議題管理
             </a>
           </li>
           <li>
             <a href="https://gitter.im/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer">
-              JHipster avalik jututuba
+              JHipster 公開聊天室
             </a>
           </li>
           <li>
             <a href="https://twitter.com/jhipster" target="_blank" rel="noopener noreferrer">
-              jälgi @jhipster Twitteris
+              在 Twitter 上關注 @jhipster
             </a>
           </li>
         </ul>
 
         <p>
-          Kui teile meeldib JHipster, siis ärge unustage anda meile tähte
+          如果您喜歡 JHipster，別忘了給我們星星，馬上連到
           {' '}
           <a href="https://github.com/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer">GitHub</a>!
         </p>

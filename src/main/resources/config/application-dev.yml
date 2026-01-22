@@ -18,7 +18,7 @@ logging:
     ROOT: DEBUG
     tech.jhipster: DEBUG
     org.hibernate.SQL: DEBUG
-    e.e.e: DEBUG
+    f.f.f: DEBUG
 
 
 spring:
@@ -33,7 +33,7 @@ spring:
       indent-output: true
   data:
     mongodb:
-      uri: mongodb://localhost:27017/fghjkl
+      uri: mongodb://localhost:27017/czxczxc
   messages:
     cache-duration: PT1S # 1 second, see the ISO 8601 standard
   thymeleaf:
@@ -68,7 +68,7 @@ jhipster:
     authentication:
       jwt:
         # This token must be encoded using Base64 and be at least 256 bits long (you can type `openssl rand -base64 64` on your command line to generate a 512 bits one)
-        base64-secret: ZmMyMWNkMzYyZDY0M2JjOTA5ODJlZmJlMWZhMGU0NzU3ZThjMWQxZGQ4NTIyZjczZGVmMzI0OWMwZWNhZGIxNzI0MTdlM2M5NmI4NDEzNDE1OGY3OTY4YzlkOGZlMDNjYWNiMWNhMzgzZjgxYmNlZGIwNWY2Yzc3YTRjOWY3MDY=
+        base64-secret: OWY5YmM5NGVjZjFjNzhiNTc2NTA1MmQwNDJlODdjNGI2MjdlNjdiMTg1NTQxY2RmNDY2ZGE0NTJmNjgwOGJmOWQ5MDJmOWMzYjZiYjUzOGEzOTE2YWFlZDQ3Nzk0MDc1YzAxMjEwYTYwY2NjOWJiZTE1MTU2MDJiYzdjYWFiOWM=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
         token-validity-in-seconds-for-remember-me: 2592000

@@ -21,8 +21,8 @@ const HealthModal = ({ handleClose, healthObject, showModal }) => {
         <Table bordered>
           <thead>
             <tr>
-              <th>Nimetus</th>
-              <th>Väärtus</th>
+              <th>名稱</th>
+              <th>值</th>
             </tr>
           </thead>
           <tbody>

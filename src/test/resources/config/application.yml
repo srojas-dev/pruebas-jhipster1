@@ -16,7 +16,7 @@
 
 mongock:
   migration-scan-package:
-    - e.e.e.config.dbmigrations
+    - f.f.f.config.dbmigrations
   mongo-db:
     read-concern: local
     write-concern:
@@ -25,7 +25,7 @@ mongock:
 
 spring:
   application:
-    name: fghjkl
+    name: czxczxc
   jackson:
     serialization:
       write-durations-as-timestamps: false
@@ -43,13 +43,13 @@ spring:
         - USER
   task:
     execution:
-      thread-name-prefix: fghjkl-task-
+      thread-name-prefix: czxczxc-task-
       pool:
         core-size: 1
         max-size: 50
         queue-capacity: 10000
     scheduling:
-      thread-name-prefix: fghjkl-scheduling-
+      thread-name-prefix: czxczxc-scheduling-
       pool:
         size: 20
   thymeleaf:
@@ -66,9 +66,9 @@ server:
 # ===================================================================
 jhipster:
   clientApp:
-    name: "fghjklApp"
+    name: "czxczxcApp"
   mail:
-    from: fghjkl@localhost.com
+    from: czxczxc@localhost.com
     base-url: http://127.0.0.1:8080
   logging:
     # To test json console appender
@@ -82,7 +82,7 @@ jhipster:
     authentication:
       jwt:
         # This token must be encoded using Base64 (you can type `echo 'secret-key'|base64` on your command line)
-        base64-secret: ZmMyMWNkMzYyZDY0M2JjOTA5ODJlZmJlMWZhMGU0NzU3ZThjMWQxZGQ4NTIyZjczZGVmMzI0OWMwZWNhZGIxNzI0MTdlM2M5NmI4NDEzNDE1OGY3OTY4YzlkOGZlMDNjYWNiMWNhMzgzZjgxYmNlZGIwNWY2Yzc3YTRjOWY3MDY=
+        base64-secret: OWY5YmM5NGVjZjFjNzhiNTc2NTA1MmQwNDJlODdjNGI2MjdlNjdiMTg1NTQxY2RmNDY2ZGE0NTJmNjgwOGJmOWQ5MDJmOWMzYjZiYjUzOGEzOTE2YWFlZDQ3Nzk0MDc1YzAxMjEwYTYwY2NjOWJiZTE1MTU2MDJiYzdjYWFiOWM=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
         token-validity-in-seconds-for-remember-me: 86400

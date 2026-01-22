@@ -27,14 +27,14 @@ export const LogsPage = () => {
   return (
     <div>
       <h2 id="logs-page-heading" data-cy="logsPageHeading">
-        Logid
+        紀錄
       </h2>
       <p>
-        Kokku on {loggers.length} logijat.
+        總共有 {loggers.length} 個記錄器。
       </p>
 
       <span>
-        Filter
+        篩選
       </span>
       <input type="text" value={filter} onChange={changeFilter} className="form-control" disabled={isFetching} />
 
@@ -43,12 +43,12 @@ export const LogsPage = () => {
           <tr title="click to order">
             <th>
               <span>
-                Nimi
+                名稱
               </span>
             </th>
             <th>
               <span>
-                Tase
+                層級
               </span>
             </th>
           </tr>

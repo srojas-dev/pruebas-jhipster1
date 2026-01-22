@@ -3,12 +3,12 @@
                              https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>e.e.e</groupId>
-    <artifactId>fghjkl</artifactId>
+    <groupId>f.f.f</groupId>
+    <artifactId>czxczxc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Fghjkl</name>
-    <description>Description for Fghjkl</description>
+    <name>Czxczxc</name>
+    <description>Description for Czxczxc</description>
 
     <properties>
         <!--
@@ -24,7 +24,7 @@
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <start-class>e.e.e.FghjklApp</start-class>
+        <start-class>f.f.f.CzxczxcApp</start-class>
         <argLine>-Djava.security.egd=file:/dev/./urandom -Xmx1G</argLine>
         <m2e.apt.activation>jdt_apt</m2e.apt.activation>
         <run.addResources>false</run.addResources>
@@ -372,7 +372,7 @@
                             </platforms>
                         </from>
                         <to>
-                            <image>fghjkl:latest</image>
+                            <image>czxczxc:latest</image>
                         </to>
                         <container>
                             <entrypoint>

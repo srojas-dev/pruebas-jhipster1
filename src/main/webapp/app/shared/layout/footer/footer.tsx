@@ -9,7 +9,7 @@ const Footer = () => (
     <Row>
       <Col md="12">
         <p>
-          See on teie jalus
+          這裡是您的頁尾
         </p>
       </Col>
     </Row>

@@ -1,0 +1,40 @@
+<div class="row">
+  <div class="col-md-3">
+    <span class="hipster img-fluid rounded"></span>
+  </div>
+
+  <div class="col-md-9">
+    <h1 class="display-4"><span>Vítejte, Java Hipster!</span> (Pruebaconcris)</h1>
+
+    <p class="lead">Toto je vaše domovská stránka</p>
+
+    <div>
+      @if (account !== null) {
+        <div class="alert alert-success">
+        @if (account) {
+          <span id="home-logged-message">Jste přihlášen jako &quot;{{ account.login }}&quot;.</span>
+        }
+        </div>
+      } @else {
+        <div class="alert alert-warning">
+          <span>Pokud se chcete </span>
+          <a class="alert-link" (click)="login()">přihlásit</a><span>, můžete vyzkoušet predvolené účty:<br/>- Administrátor (jméno=&quot;admin&quot; a heslo=&quot;admin&quot;) <br/>- Uživatel (jméno=&quot;user&quot; a heslo=&quot;user&quot;).</span>
+        </div>
+      }
+    </div>
+
+    <p>Pokud máte nějaké dotazy týkající se JHipster:</p>
+
+    <ul>
+      <li><a href="https://www.jhipster.tech/" target="_blank" rel="noopener noreferrer">Domovská stránka JHipster</a></li>
+      <li><a href="https://stackoverflow.com/tags/jhipster/info" target="_blank" rel="noopener noreferrer">JHipster ve službě Stack Overflow</a></li>
+      <li><a href="https://github.com/jhipster/generator-jhipster/issues?state=open" target="_blank" rel="noopener noreferrer">Nahlašování chyb JHipster</a></li>
+      <li><a href="https://gitter.im/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer">Veřejná chatovací místnost JHipster</a></li>
+      <li><a href="https://twitter.com/jhipster" target="_blank" rel="noopener noreferrer">Sledovat &#64;jhipster ve službě Twitter</a></li>
+    </ul>
+
+    <p>
+      <span>Pokud se vám JHipster líbí, nezapomeňte nám dát hvězdičku ve službě</span> <a href="https://github.com/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer">GitHub</a>!
+    </p>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authManagement": false,
+    "authType": "oauth2",
+    "authenticationType": "oauth2",
+    "baseName": "pruebaconcris",
+    "clientFramework": "angular",
+    "creationTimestamp": 1769088489932,
+    "dataBaseName": "pruebaconcris",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "devServerPort": 4200,
+    "enableHibernateCache": false,
+    "enableTranslation": false,
+    "entities": [],
+    "frontFramework": "angular",
+    "internalization": false,
+    "javaPackageName": "a.a.a",
+    "jhipsterVersion": "8.1.0",
+    "languages": [
+      "cs"
+    ],
+    "nativeLanguage": "cs",
+    "packageName": "a.a.a",
+    "prodDatabaseType": "mongodb",
+    "skipUserManagement": true
+  }
+}

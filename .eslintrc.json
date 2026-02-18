@@ -1,6 +1,9 @@
 {
   "parser": "@typescript-eslint/parser",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
   "plugins": ["@angular-eslint/eslint-plugin", "@typescript-eslint"],
   "extends": [
     "eslint:recommended",
@@ -52,6 +55,7 @@
     ],
     "@typescript-eslint/explicit-function-return-type": ["error", { "allowExpressions": true }],
     "@typescript-eslint/explicit-module-boundary-types": "off",
+<<<<<<< Updated upstream
 =======
   "plugins": ["@typescript-eslint"],
   "extends": [
@@ -81,11 +85,16 @@
   },
   "rules": {
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     "@typescript-eslint/member-ordering": [
       "error",
       {
         "default": [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
           "public-static-field",
           "protected-static-field",
           "private-static-field",
@@ -129,6 +138,7 @@
     "object-shorthand": ["error", "always", { "avoidExplicitReturnArrows": true }],
     "radix": "error",
     "spaced-comment": ["warn", "always"]
+<<<<<<< Updated upstream
 =======
           "static-field",
           "instance-field",
@@ -183,6 +193,8 @@
     "no-invalid-this": "off",
     "react/prop-types": "off",
     "react/display-name": "off"
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   }
 }

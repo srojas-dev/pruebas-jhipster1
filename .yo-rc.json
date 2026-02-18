@@ -6,6 +6,7 @@
     "authenticationType": "oauth2",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "baseName": "aaaa",
     "clientFramework": "angular",
     "creationTimestamp": 1771409881883,
@@ -16,6 +17,12 @@
     "creationTimestamp": 1771410149920,
     "dataBaseName": "ffffff",
 >>>>>>> Stashed changes
+=======
+    "baseName": "agghdrfec",
+    "clientFramework": "angular",
+    "creationTimestamp": 1771410654253,
+    "dataBaseName": "agghdrfec",
+>>>>>>> Stashed changes
     "databaseType": "mongodb",
     "devDatabaseType": "mongodb",
     "devServerPort": 4200,
@@ -25,13 +32,20 @@
     "frontFramework": "angular",
     "internalization": false,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "javaPackageName": "e.e.e",
     "jhipsterVersion": "8.1.0",
     "jwtSecretKey": "MWY2MWFkNTUxZTQ0NThiNzAyNzRmYmFmNjNiNGNkNTNhMzVjZjkxODRhOTk1NzliM2YxZTUwMTY5YzZkNjc1M2ZkNmYxMjllZGU3ZjhkYThmMjBiMTNiNDFhNzBhZTRiZjNiNGEwYTNhYzIwNmUwNjI2ODNhZTUxYThlMTUyN2I=",
+=======
+    "javaPackageName": "t.t.t",
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "Njc5MTM5ZjYxMWEwMDVhNGI2ZTgyMzBiNWJmZjk3NTVhOTQ1YmY4NjMwOTU1NzVjY2ZhMjQ2NWFhODAxMWU5ODhhZWNiY2FkOWNmOTIxNGJjN2U5ZjY3NzQ4NWM2YmM5NjAxNjg5YTU0OTNlMWIwMzFkYjhlMjlkMDlmMDg3ZDA=",
+>>>>>>> Stashed changes
     "languages": [
       "cs"
     ],
     "nativeLanguage": "cs",
+<<<<<<< Updated upstream
     "packageName": "e.e.e",
 =======
     "javaPackageName": "d.d.d",
@@ -63,6 +77,9 @@
       "es"
     ],
     "nativeLanguage": "es",
+    "packageName": "t.t.t",
+>>>>>>> Stashed changes
+=======
     "packageName": "t.t.t",
 >>>>>>> Stashed changes
     "prodDatabaseType": "mongodb",

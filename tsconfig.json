@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
     "baseUrl": "src/main/webapp/",
     "outDir": "./target/out-tsc/root",
     "forceConsistentCasingInFileNames": true,
@@ -33,6 +36,7 @@
     "strictTemplates": true,
     "preserveWhitespaces": true
   }
+<<<<<<< Updated upstream
 =======
     "jsx": "react",
     "target": "es6",
@@ -58,5 +62,7 @@
   },
   "include": ["src/main/webapp/app"],
   "exclude": ["node_modules", "**/*.spec.ts", "**/*.spec.tsx"]
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }

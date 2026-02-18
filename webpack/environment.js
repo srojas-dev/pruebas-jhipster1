@@ -1,9 +1,13 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 module.exports = {
   I18N_HASH: 'generated_hash',
   SERVER_API_URL: '',
   __VERSION__: process.env.hasOwnProperty('APP_VERSION') ? process.env.APP_VERSION : 'DEV',
   __DEBUG_INFO_ENABLED__: false,
+<<<<<<< Updated upstream
 =======
 
 module.exports = {
@@ -14,5 +18,7 @@ module.exports = {
   // If you use an API server, in `prod` mode, you will need to enable CORS
   // (see the `jhipster.cors` common JHipster property in the `application-*.yml` configurations)
   SERVER_API_URL: ''
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };

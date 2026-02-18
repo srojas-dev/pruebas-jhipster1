@@ -7,15 +7,20 @@ export const errorRoute: Routes = [
     path: 'error',
     component: ErrorComponent,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     title: 'Chybová stránka!',
 =======
     title: 'Страница за грешка!',
+>>>>>>> Stashed changes
+=======
+    title: 'Chybová stránka!',
 >>>>>>> Stashed changes
   },
   {
     path: 'accessdenied',
     component: ErrorComponent,
     data: {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       errorMessage: 'Nemáte oprávnení k přístupu na tuto stránku.',
     },
@@ -25,11 +30,17 @@ export const errorRoute: Routes = [
     },
     title: 'Страница за грешка!',
 >>>>>>> Stashed changes
+=======
+      errorMessage: 'Nemáte oprávnení k přístupu na tuto stránku.',
+    },
+    title: 'Chybová stránka!',
+>>>>>>> Stashed changes
   },
   {
     path: '404',
     component: ErrorComponent,
     data: {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       errorMessage: 'Stránka neexistuje.',
     },
@@ -38,6 +49,11 @@ export const errorRoute: Routes = [
       errorMessage: 'Тази страница не съществува.',
     },
     title: 'Страница за грешка!',
+>>>>>>> Stashed changes
+=======
+      errorMessage: 'Stránka neexistuje.',
+    },
+    title: 'Chybová stránka!',
 >>>>>>> Stashed changes
   },
   {

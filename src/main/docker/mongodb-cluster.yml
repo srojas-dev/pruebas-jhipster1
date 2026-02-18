@@ -1,12 +1,16 @@
 # This configuration is intended for development purpose, it's **your** responsibility to harden it for production
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 name: aaaa
 =======
 name: ffffff
 >>>>>>> Stashed changes
 =======
 name: asdasdasd
+>>>>>>> Stashed changes
+=======
+name: agghdrfec
 >>>>>>> Stashed changes
 services:
   mongodb:
@@ -17,12 +21,16 @@ services:
       - 127.0.0.1:27017:27017
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     command: mongos --configdb csvr/aaaa-mongodb-config --bind_ip 0.0.0.0
 =======
     command: mongos --configdb csvr/ffffff-mongodb-config --bind_ip 0.0.0.0
 >>>>>>> Stashed changes
 =======
     command: mongos --configdb csvr/asdasdasd-mongodb-config --bind_ip 0.0.0.0
+>>>>>>> Stashed changes
+=======
+    command: mongos --configdb csvr/agghdrfec-mongodb-config --bind_ip 0.0.0.0
 >>>>>>> Stashed changes
   mongodb-node:
     build:
@@ -33,11 +41,15 @@ services:
     image: mongo:7.0.4
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     container_name: aaaa-mongodb-config
 =======
     container_name: ffffff-mongodb-config
 >>>>>>> Stashed changes
 =======
     container_name: asdasdasd-mongodb-config
+>>>>>>> Stashed changes
+=======
+    container_name: agghdrfec-mongodb-config
 >>>>>>> Stashed changes
     command: mongod --configsvr --dbpath /data/db --replSet csvr

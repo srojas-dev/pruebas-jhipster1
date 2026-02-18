@@ -1,6 +1,10 @@
 package t.t.t;
 
+<<<<<<< Updated upstream
 import t.t.t.AsdasdasdApp;
+=======
+import t.t.t.AgghdrfecApp;
+>>>>>>> Stashed changes
 import t.t.t.config.AsyncSyncConfiguration;
 import t.t.t.config.EmbeddedMongo;
 import t.t.t.config.TestSecurityConfiguration;
@@ -17,7 +21,11 @@ import java.lang.annotation.Target;
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
+<<<<<<< Updated upstream
 @SpringBootTest(classes = {AsdasdasdApp.class, AsyncSyncConfiguration.class, TestSecurityConfiguration.class})
+=======
+@SpringBootTest(classes = {AgghdrfecApp.class, AsyncSyncConfiguration.class, TestSecurityConfiguration.class})
+>>>>>>> Stashed changes
 @EmbeddedMongo
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_CLASS)
 public @interface IntegrationTest {

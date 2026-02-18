@@ -3,7 +3,11 @@ package t.t.t.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
+<<<<<<< Updated upstream
  * Properties specific to Asdasdasd.
+=======
+ * Properties specific to Agghdrfec.
+>>>>>>> Stashed changes
  * <p>
  * Properties are configured in the {@code application.yml} file.
  * See {@link tech.jhipster.config.JHipsterProperties} for a good example.

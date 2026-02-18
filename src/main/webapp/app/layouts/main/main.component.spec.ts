@@ -52,9 +52,13 @@ describe('MainComponent', () => {
 
   describe('page title', () => {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     const defaultPageTitle = 'Aaaa';
 =======
     const defaultPageTitle = 'Ffffff';
+>>>>>>> Stashed changes
+=======
+    const defaultPageTitle = 'Agghdrfec';
 >>>>>>> Stashed changes
     const parentRoutePageTitle = 'parentTitle';
     const childRoutePageTitle = 'childTitle';

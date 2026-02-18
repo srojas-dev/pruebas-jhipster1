@@ -8,9 +8,13 @@ import { Component, Input } from '@angular/core';
   selector: 'jhi-item-count',
   template: `
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <div>Zobrazeno {{first}} - {{second}} ze {{total}} položek.</div>
 =======
     <div>Показани {{first}} - {{second}} от {{total}} записа.</div>
+>>>>>>> Stashed changes
+=======
+    <div>Zobrazeno {{first}} - {{second}} ze {{total}} položek.</div>
 >>>>>>> Stashed changes
   `,
 })

@@ -6,9 +6,13 @@
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <logger name="e.e.e" level="INFO"/>
 =======
     <logger name="d.d.d" level="INFO"/>
+>>>>>>> Stashed changes
+=======
+    <logger name="t.t.t" level="INFO"/>
 >>>>>>> Stashed changes
 =======
     <logger name="t.t.t" level="INFO"/>

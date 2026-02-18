@@ -22,9 +22,13 @@ const routes: Routes = [
   },
   {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     path: 'aaaa',
 =======
     path: 'ffffff',
+>>>>>>> Stashed changes
+=======
+    path: 'agghdrfec',
 >>>>>>> Stashed changes
     loadChildren: () => import(`./entities/entity.routes`),
   },

@@ -7,12 +7,16 @@ spring:
   application:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     name: aaaa
 =======
     name: ffffff
 >>>>>>> Stashed changes
 =======
     name: asdasdasd
+>>>>>>> Stashed changes
+=======
+    name: agghdrfec
 >>>>>>> Stashed changes
   profiles:
     # The commented value for `active` can be replaced with valid Spring profiles to load.

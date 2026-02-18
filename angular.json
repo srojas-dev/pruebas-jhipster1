@@ -4,9 +4,13 @@
   "newProjectRoot": "projects",
   "projects": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "aaaa": {
 =======
     "ffffff": {
+>>>>>>> Stashed changes
+=======
+    "agghdrfec": {
 >>>>>>> Stashed changes
       "projectType": "application",
       "schematics": {
@@ -86,14 +90,19 @@
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "buildTarget": "aaaa:build:development",
 =======
             "buildTarget": "ffffff:build:development",
+>>>>>>> Stashed changes
+=======
+            "buildTarget": "agghdrfec:build:development",
 >>>>>>> Stashed changes
             "port": 4200
           },
           "configurations": {
             "production": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "buildTarget": "aaaa:build:production"
             },
@@ -104,6 +113,12 @@
             },
             "development": {
               "buildTarget": "ffffff:build:development"
+>>>>>>> Stashed changes
+=======
+              "buildTarget": "agghdrfec:build:production"
+            },
+            "development": {
+              "buildTarget": "agghdrfec:build:development"
 >>>>>>> Stashed changes
             }
           },

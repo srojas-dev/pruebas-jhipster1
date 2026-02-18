@@ -1,6 +1,7 @@
 {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "name": "aaaa",
   "version": "0.0.1-SNAPSHOT",
   "description": "Description for Aaaa",
@@ -14,6 +15,11 @@
   "version": "0.0.1-SNAPSHOT",
   "description": "Description for Asdasdasd",
 >>>>>>> Stashed changes
+=======
+  "name": "agghdrfec",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "Description for Agghdrfec",
+>>>>>>> Stashed changes
   "private": true,
   "license": "UNLICENSED",
   "cacheDirectories": [
@@ -21,6 +27,9 @@
   ],
   "dependencies": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
     "@angular/common": "17.0.6",
     "@angular/compiler": "17.0.6",
     "@angular/core": "17.0.6",
@@ -73,6 +82,7 @@
     "webpack-bundle-analyzer": "4.10.1",
     "webpack-merge": "5.10.0",
     "webpack-notifier": "1.15.0",
+<<<<<<< Updated upstream
 =======
     "@fortawesome/fontawesome-svg-core": "6.5.1",
     "@fortawesome/free-solid-svg-icons": "6.5.1",
@@ -157,6 +167,8 @@
     "webpack-notifier": "1.15.0",
     "workbox-webpack-plugin": "7.0.0",
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     "generator-jhipster": "8.1.0",
     "husky": "8.0.3",
     "lint-staged": "15.2.0",
@@ -167,10 +179,16 @@
     "concurrently": "8.2.2"
   },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "overrides": {
     "webpack": "5.89.0"
   },
 =======
+>>>>>>> Stashed changes
+=======
+  "overrides": {
+    "webpack": "5.89.0"
+  },
 >>>>>>> Stashed changes
   "engines": {
     "node": ">=18.18.2"
@@ -184,6 +202,9 @@
     "prettier:check": "prettier --check \"{,src/**/,webpack/,.blueprint/**/}*.{md,json,yml,html,cjs,mjs,js,ts,tsx,css,scss,java}\"",
     "prettier:format": "prettier --write \"{,src/**/,webpack/,.blueprint/**/}*.{md,json,yml,html,cjs,mjs,js,ts,tsx,css,scss,java}\"",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
     "lint": "eslint . --ext .js,.ts",
     "lint:fix": "npm run lint -- --fix",
     "cleanup": "rimraf target/",
@@ -206,6 +227,7 @@
     "webapp:dev-ssl": "ng serve --ssl",
     "webapp:prod": "npm run clean-www && npm run webapp:build:prod",
     "webapp:test": "npm run test --",
+<<<<<<< Updated upstream
 =======
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "npm run lint -- --fix",
@@ -231,6 +253,8 @@
     "webapp:test": "npm run test --",
     "webpack-dev-server": "webpack serve",
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     "prepare": "husky install",
     "app:start": "./mvnw",
     "backend:info": "./mvnw -ntp enforcer:display-info --batch-mode",
@@ -243,9 +267,13 @@
     "java:docker:arm64": "npm run java:docker -- -Djib-maven-plugin.architecture=arm64",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "backend:unit:test": "./mvnw -ntp -Dskip.installnodenpm -Dskip.npm verify --batch-mode -Dlogging.level.ROOT=OFF -Dlogging.level.tech.jhipster=OFF -Dlogging.level.e.e.e=OFF -Dlogging.level.org.springframework=OFF -Dlogging.level.org.springframework.web=OFF -Dlogging.level.org.springframework.security=OFF",
 =======
     "backend:unit:test": "./mvnw -ntp -Dskip.installnodenpm -Dskip.npm verify --batch-mode -Dlogging.level.ROOT=OFF -Dlogging.level.tech.jhipster=OFF -Dlogging.level.d.d.d=OFF -Dlogging.level.org.springframework=OFF -Dlogging.level.org.springframework.web=OFF -Dlogging.level.org.springframework.security=OFF",
+>>>>>>> Stashed changes
+=======
+    "backend:unit:test": "./mvnw -ntp -Dskip.installnodenpm -Dskip.npm verify --batch-mode -Dlogging.level.ROOT=OFF -Dlogging.level.tech.jhipster=OFF -Dlogging.level.t.t.t=OFF -Dlogging.level.org.springframework=OFF -Dlogging.level.org.springframework.web=OFF -Dlogging.level.org.springframework.security=OFF",
 >>>>>>> Stashed changes
 =======
     "backend:unit:test": "./mvnw -ntp -Dskip.installnodenpm -Dskip.npm verify --batch-mode -Dlogging.level.ROOT=OFF -Dlogging.level.tech.jhipster=OFF -Dlogging.level.t.t.t=OFF -Dlogging.level.org.springframework=OFF -Dlogging.level.org.springframework.web=OFF -Dlogging.level.org.springframework.security=OFF",
@@ -263,6 +291,7 @@
     "preci:e2e:server:start": "npm run services:db:await --if-present && npm run services:others:await --if-present",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "ci:e2e:server:start": "java -jar target/e2e.$npm_package_config_packaging --spring.profiles.active=e2e,$npm_package_config_default_environment -Dlogging.level.ROOT=OFF -Dlogging.level.tech.jhipster=OFF -Dlogging.level.e.e.e=OFF -Dlogging.level.org.springframework=OFF -Dlogging.level.org.springframework.web=OFF -Dlogging.level.org.springframework.security=OFF --logging.level.org.springframework.web=ERROR",
 =======
     "ci:e2e:server:start": "java -jar target/e2e.$npm_package_config_packaging --spring.profiles.active=e2e,$npm_package_config_default_environment -Dlogging.level.ROOT=OFF -Dlogging.level.tech.jhipster=OFF -Dlogging.level.d.d.d=OFF -Dlogging.level.org.springframework=OFF -Dlogging.level.org.springframework.web=OFF -Dlogging.level.org.springframework.security=OFF --logging.level.org.springframework.web=ERROR",
@@ -272,6 +301,11 @@
 =======
     "ci:e2e:server:start": "java -jar target/e2e.$npm_package_config_packaging --spring.profiles.active=e2e,$npm_package_config_default_environment -Dlogging.level.ROOT=OFF -Dlogging.level.tech.jhipster=OFF -Dlogging.level.t.t.t=OFF -Dlogging.level.org.springframework=OFF -Dlogging.level.org.springframework.web=OFF -Dlogging.level.org.springframework.security=OFF --logging.level.org.springframework.web=ERROR",
     "ci:frontend:test": "npm run webapp:build:$npm_package_config_default_environment && npm run test-ci",
+>>>>>>> Stashed changes
+=======
+    "ci:e2e:server:start": "java -jar target/e2e.$npm_package_config_packaging --spring.profiles.active=e2e,$npm_package_config_default_environment -Dlogging.level.ROOT=OFF -Dlogging.level.tech.jhipster=OFF -Dlogging.level.t.t.t=OFF -Dlogging.level.org.springframework=OFF -Dlogging.level.org.springframework.web=OFF -Dlogging.level.org.springframework.security=OFF --logging.level.org.springframework.web=ERROR",
+    "ci:frontend:build": "npm run webapp:build:$npm_package_config_default_environment",
+    "ci:frontend:test": "npm run ci:frontend:build && npm test",
 >>>>>>> Stashed changes
     "docker:db:up": "docker compose -f src/main/docker/mongodb.yml up --wait",
     "docker:db:down": "docker compose -f src/main/docker/mongodb.yml down -v",

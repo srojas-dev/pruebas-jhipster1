@@ -1,9 +1,13 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const { withModuleFederationPlugin } = require('@angular-architects/module-federation/webpack');
 =======
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
 const { DefinePlugin } = require('webpack');
 
+>>>>>>> Stashed changes
+=======
+const { withModuleFederationPlugin } = require('@angular-architects/module-federation/webpack');
 >>>>>>> Stashed changes
 const packageJson = require('../package.json');
 // Microfrontend api, should match across gateway and microservices.
@@ -11,8 +15,12 @@ const apiVersion = '0.0.1';
 
 const sharedDefaults = { singleton: true, strictVersion: true, requiredVersion: apiVersion };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const shareAllDefaults = { ...sharedDefaults, requiredVersion: 'auto' }
 =======
+>>>>>>> Stashed changes
+=======
+const shareAllDefaults = { ...sharedDefaults, requiredVersion: 'auto' }
 >>>>>>> Stashed changes
 const shareMappings = (...mappings) => Object.fromEntries(mappings.map(map => [map, { ...sharedDefaults, version: apiVersion }]));
 
@@ -24,6 +32,9 @@ const shareDependencies = ({ skipList = [] } = {}) =>
   );
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 let sharedDependencies = shareDependencies({ skipList: ['@angular/localize', 'zone.js'] });
 sharedDependencies = {
   ...sharedDependencies,
@@ -34,9 +45,13 @@ sharedDependencies = {
 module.exports = (config, options, targetOptions) => {
   return withModuleFederationPlugin({
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     name: 'aaaa',
 =======
     name: 'ffffff',
+>>>>>>> Stashed changes
+=======
+    name: 'agghdrfec',
 >>>>>>> Stashed changes
     exposes: {
       './entity-navbar-items': 'app/entities/entity-navbar-items.ts',
@@ -63,6 +78,7 @@ module.exports = (config, options, targetOptions) => {
       ),
     },
   });
+<<<<<<< Updated upstream
 =======
 module.exports = ({ serve }) => {
   return {
@@ -107,5 +123,7 @@ module.exports = ({ serve }) => {
       publicPath: 'auto',
     },
   };
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 };

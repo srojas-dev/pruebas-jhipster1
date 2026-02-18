@@ -1,4 +1,7 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 const { pathsToModuleNameMapper } = require('ts-jest')
 
 const { compilerOptions: { paths = {}, baseUrl = './' } } = require('./tsconfig.json');
@@ -26,6 +29,7 @@ module.exports = {
     url: 'https://jhipster.tech',
   },
 };
+<<<<<<< Updated upstream
 =======
 const tsconfig = require('./tsconfig.test.json');
 
@@ -95,4 +99,6 @@ function mapTypescriptAliasToJestAlias(alias = {}) {
       }, jestAliases);
     return jestAliases;
   }
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

@@ -5,6 +5,7 @@
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <groupId>e.e.e</groupId>
     <artifactId>aaaa</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -27,6 +28,14 @@
     <name>Asdasdasd</name>
     <description>Description for Asdasdasd</description>
 >>>>>>> Stashed changes
+=======
+    <groupId>t.t.t</groupId>
+    <artifactId>agghdrfec</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>Agghdrfec</name>
+    <description>Description for Agghdrfec</description>
+>>>>>>> Stashed changes
 
     <properties>
         <!--
@@ -44,12 +53,16 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <start-class>e.e.e.AaaaApp</start-class>
 =======
         <start-class>d.d.d.FfffffApp</start-class>
 >>>>>>> Stashed changes
 =======
         <start-class>t.t.t.AsdasdasdApp</start-class>
+>>>>>>> Stashed changes
+=======
+        <start-class>t.t.t.AgghdrfecApp</start-class>
 >>>>>>> Stashed changes
         <argLine>-Djava.security.egd=file:/dev/./urandom -Xmx1G</argLine>
         <m2e.apt.activation>jdt_apt</m2e.apt.activation>
@@ -430,12 +443,16 @@
                         <to>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             <image>aaaa:latest</image>
 =======
                             <image>ffffff:latest</image>
 >>>>>>> Stashed changes
 =======
                             <image>asdasdasd:latest</image>
+>>>>>>> Stashed changes
+=======
+                            <image>agghdrfec:latest</image>
 >>>>>>> Stashed changes
                         </to>
                         <container>
@@ -1041,9 +1058,13 @@
                                         <include>package.json</include>
                                         <include>tsconfig.json</include>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                         <include>tsconfig.app.json</include>
 =======
                                         <include>.postcss.config.js</include>
+>>>>>>> Stashed changes
+=======
+                                        <include>tsconfig.app.json</include>
 >>>>>>> Stashed changes
                                         <include>webpack/*.*</include>
                                     </includes>

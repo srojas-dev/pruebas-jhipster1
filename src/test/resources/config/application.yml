@@ -18,9 +18,13 @@ mongock:
   migration-scan-package:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - e.e.e.config.dbmigrations
 =======
     - d.d.d.config.dbmigrations
+>>>>>>> Stashed changes
+=======
+    - t.t.t.config.dbmigrations
 >>>>>>> Stashed changes
 =======
     - t.t.t.config.dbmigrations
@@ -35,12 +39,16 @@ spring:
   application:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     name: aaaa
 =======
     name: ffffff
 >>>>>>> Stashed changes
 =======
     name: asdasdasd
+>>>>>>> Stashed changes
+=======
+    name: agghdrfec
 >>>>>>> Stashed changes
   cloud:
     consul:
@@ -63,12 +71,16 @@ spring:
     execution:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       thread-name-prefix: aaaa-task-
 =======
       thread-name-prefix: ffffff-task-
 >>>>>>> Stashed changes
 =======
       thread-name-prefix: asdasdasd-task-
+>>>>>>> Stashed changes
+=======
+      thread-name-prefix: agghdrfec-task-
 >>>>>>> Stashed changes
       pool:
         core-size: 1
@@ -77,12 +89,16 @@ spring:
     scheduling:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       thread-name-prefix: aaaa-scheduling-
 =======
       thread-name-prefix: ffffff-scheduling-
 >>>>>>> Stashed changes
 =======
       thread-name-prefix: asdasdasd-scheduling-
+>>>>>>> Stashed changes
+=======
+      thread-name-prefix: agghdrfec-scheduling-
 >>>>>>> Stashed changes
       pool:
         size: 20
@@ -109,6 +125,7 @@ jhipster:
   clientApp:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     name: "aaaaApp"
   mail:
     from: aaaa@localhost.com
@@ -121,6 +138,11 @@ jhipster:
     name: "asdasdasdApp"
   mail:
     from: asdasdasd@localhost.com
+>>>>>>> Stashed changes
+=======
+    name: "agghdrfecApp"
+  mail:
+    from: agghdrfec@localhost.com
 >>>>>>> Stashed changes
     base-url: http://127.0.0.1:8080
   logging:

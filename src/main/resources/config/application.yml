@@ -100,6 +100,7 @@ mongock:
   migration-scan-package:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - e.e.e.config.dbmigrations
 
 spring:
@@ -113,16 +114,23 @@ spring:
     name: ffffff
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
     - t.t.t.config.dbmigrations
 
 spring:
   application:
+<<<<<<< Updated upstream
     name: asdasdasd
+>>>>>>> Stashed changes
+=======
+    name: agghdrfec
 >>>>>>> Stashed changes
   cloud:
     consul:
       discovery:
         healthCheckPath: /management/health
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
         instanceId: aaaa:${spring.application.instance-id:${random.value}}
@@ -134,6 +142,10 @@ spring:
 =======
         instanceId: asdasdasd:${spring.application.instance-id:${random.value}}
         service-name: asdasdasd
+>>>>>>> Stashed changes
+=======
+        instanceId: agghdrfec:${spring.application.instance-id:${random.value}}
+        service-name: agghdrfec
 >>>>>>> Stashed changes
       config:
         watch:
@@ -162,12 +174,16 @@ spring:
     execution:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       thread-name-prefix: aaaa-task-
 =======
       thread-name-prefix: ffffff-task-
 >>>>>>> Stashed changes
 =======
       thread-name-prefix: asdasdasd-task-
+>>>>>>> Stashed changes
+=======
+      thread-name-prefix: agghdrfec-task-
 >>>>>>> Stashed changes
       pool:
         core-size: 2
@@ -176,12 +192,16 @@ spring:
     scheduling:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       thread-name-prefix: aaaa-scheduling-
 =======
       thread-name-prefix: ffffff-scheduling-
 >>>>>>> Stashed changes
 =======
       thread-name-prefix: asdasdasd-scheduling-
+>>>>>>> Stashed changes
+=======
+      thread-name-prefix: agghdrfec-scheduling-
 >>>>>>> Stashed changes
       pool:
         size: 2
@@ -226,12 +246,16 @@ jhipster:
   clientApp:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     name: "aaaaApp"
 =======
     name: "ffffffApp"
 >>>>>>> Stashed changes
 =======
     name: "asdasdasdApp"
+>>>>>>> Stashed changes
+=======
+    name: "agghdrfecApp"
 >>>>>>> Stashed changes
   # By default CORS is disabled. Uncomment to enable.
   # cors:
@@ -242,6 +266,7 @@ jhipster:
   #   allow-credentials: true
   #   max-age: 1800
   mail:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     from: aaaa@localhost
@@ -265,6 +290,14 @@ jhipster:
     management-include-pattern: /management/**
     title: Asdasdasd API
     description: Asdasdasd API documentation
+>>>>>>> Stashed changes
+=======
+    from: agghdrfec@localhost
+  api-docs:
+    default-include-pattern: /api/**
+    management-include-pattern: /management/**
+    title: Agghdrfec API
+    description: Agghdrfec API documentation
 >>>>>>> Stashed changes
     version: 0.0.1
     terms-of-service-url:

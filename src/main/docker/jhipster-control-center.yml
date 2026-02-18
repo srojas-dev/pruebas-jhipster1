@@ -32,12 +32,16 @@
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 name: aaaa
 =======
 name: ffffff
 >>>>>>> Stashed changes
 =======
 name: asdasdasd
+>>>>>>> Stashed changes
+=======
+name: agghdrfec
 >>>>>>> Stashed changes
 services:
   jhipster-control-center:

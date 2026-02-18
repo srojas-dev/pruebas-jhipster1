@@ -1,7 +1,11 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.209.6/containers/java
 {
+<<<<<<< Updated upstream
   "name": "Aaaa",
+=======
+  "name": "Ffffff",
+>>>>>>> Stashed changes
   "build": {
     "dockerfile": "Dockerfile",
     "args": {

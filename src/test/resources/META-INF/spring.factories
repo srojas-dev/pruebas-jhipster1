@@ -1,2 +1,6 @@
+<<<<<<< Updated upstream
 org.springframework.test.context.ContextCustomizerFactory = e.e.e.config.\
+=======
+org.springframework.test.context.ContextCustomizerFactory = d.d.d.config.\
+>>>>>>> Stashed changes
     TestContainersSpringContextCustomizerFactory

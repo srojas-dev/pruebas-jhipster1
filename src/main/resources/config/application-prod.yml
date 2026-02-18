@@ -17,7 +17,11 @@ logging:
   level:
     ROOT: INFO
     tech.jhipster: INFO
+<<<<<<< Updated upstream
     e.e.e: INFO
+=======
+    d.d.d: INFO
+>>>>>>> Stashed changes
 
 management:
   prometheus:
@@ -45,13 +49,21 @@ spring:
       port: 8500
   data:
     mongodb:
+<<<<<<< Updated upstream
       uri: mongodb://localhost:27017/aaaa
+=======
+      uri: mongodb://localhost:27017/ffffff
+>>>>>>> Stashed changes
   thymeleaf:
     cache: true
 
 # ===================================================================
 # To enable TLS in production, generate a certificate using:
+<<<<<<< Updated upstream
 # keytool -genkey -alias aaaa -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore keystore.p12 -validity 3650
+=======
+# keytool -genkey -alias ffffff -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore keystore.p12 -validity 3650
+>>>>>>> Stashed changes
 #
 # You can also use Let's Encrypt:
 # See details in topic "Create a Java Keystore (.JKS) from Let's Encrypt Certificates" on https://maximilian-boehm.com/en-gb/blog

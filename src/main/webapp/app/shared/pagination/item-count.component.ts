@@ -7,7 +7,11 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   selector: 'jhi-item-count',
   template: `
+<<<<<<< Updated upstream
     <div>Zobrazeno {{first}} - {{second}} ze {{total}} položek.</div>
+=======
+    <div>Показани {{first}} - {{second}} от {{total}} записа.</div>
+>>>>>>> Stashed changes
   `,
 })
 export default class ItemCountComponent {

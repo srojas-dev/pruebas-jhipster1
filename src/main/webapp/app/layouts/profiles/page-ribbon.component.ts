@@ -11,7 +11,11 @@ import { ProfileService } from './profile.service';
   template: `
     @if (ribbonEnv$ | async; as ribbonEnv) {
       <div class="ribbon">
+<<<<<<< Updated upstream
         <a href="">{{ {"dev":"Development"}[ribbonEnv] || '' }}</a>
+=======
+        <a href="">{{ {"dev":"Разработка"}[ribbonEnv] || '' }}</a>
+>>>>>>> Stashed changes
       </div>
     }
   `,

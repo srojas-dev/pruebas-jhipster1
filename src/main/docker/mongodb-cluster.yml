@@ -1,5 +1,9 @@
 # This configuration is intended for development purpose, it's **your** responsibility to harden it for production
+<<<<<<< Updated upstream
 name: aaaa
+=======
+name: ffffff
+>>>>>>> Stashed changes
 services:
   mongodb:
     image: mongo:7.0.4
@@ -7,7 +11,11 @@ services:
     # remove the "127.0.0.1:" prefix
     ports:
       - 127.0.0.1:27017:27017
+<<<<<<< Updated upstream
     command: mongos --configdb csvr/aaaa-mongodb-config --bind_ip 0.0.0.0
+=======
+    command: mongos --configdb csvr/ffffff-mongodb-config --bind_ip 0.0.0.0
+>>>>>>> Stashed changes
   mongodb-node:
     build:
       context: .
@@ -15,5 +23,9 @@ services:
     command: mongod --shardsvr --replSet rs1
   mongodb-config:
     image: mongo:7.0.4
+<<<<<<< Updated upstream
     container_name: aaaa-mongodb-config
+=======
+    container_name: ffffff-mongodb-config
+>>>>>>> Stashed changes
     command: mongod --configsvr --dbpath /data/db --replSet csvr

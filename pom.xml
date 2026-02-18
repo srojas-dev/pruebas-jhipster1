@@ -3,12 +3,21 @@
                              https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< Updated upstream
     <groupId>e.e.e</groupId>
     <artifactId>aaaa</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Aaaa</name>
     <description>Description for Aaaa</description>
+=======
+    <groupId>d.d.d</groupId>
+    <artifactId>ffffff</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>Ffffff</name>
+    <description>Description for Ffffff</description>
+>>>>>>> Stashed changes
 
     <properties>
         <!--
@@ -24,7 +33,11 @@
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
+<<<<<<< Updated upstream
         <start-class>e.e.e.AaaaApp</start-class>
+=======
+        <start-class>d.d.d.FfffffApp</start-class>
+>>>>>>> Stashed changes
         <argLine>-Djava.security.egd=file:/dev/./urandom -Xmx1G</argLine>
         <m2e.apt.activation>jdt_apt</m2e.apt.activation>
         <run.addResources>false</run.addResources>
@@ -402,7 +415,11 @@
                             </platforms>
                         </from>
                         <to>
+<<<<<<< Updated upstream
                             <image>aaaa:latest</image>
+=======
+                            <image>ffffff:latest</image>
+>>>>>>> Stashed changes
                         </to>
                         <container>
                             <entrypoint>

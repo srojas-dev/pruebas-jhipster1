@@ -30,7 +30,11 @@
 # - In Eureka mode, the ports are in the jhipster-registry.yml file.
 
 
+<<<<<<< Updated upstream
 name: aaaa
+=======
+name: ffffff
+>>>>>>> Stashed changes
 services:
   jhipster-control-center:
     image: 'jhipster/jhipster-control-center:v0.5.0'

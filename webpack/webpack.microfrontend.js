@@ -23,7 +23,11 @@ sharedDependencies = {
 
 module.exports = (config, options, targetOptions) => {
   return withModuleFederationPlugin({
+<<<<<<< Updated upstream
     name: 'aaaa',
+=======
+    name: 'ffffff',
+>>>>>>> Stashed changes
     exposes: {
       './entity-navbar-items': 'app/entities/entity-navbar-items.ts',
       './entity-routes': 'app/entities/entity.routes.ts',

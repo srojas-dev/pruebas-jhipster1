@@ -41,7 +41,11 @@ describe('Alert Error Component', () => {
   describe('Error Handling', () => {
     it('Should display an alert on status 0', () => {
       // GIVEN
+<<<<<<< Updated upstream
       eventManager.broadcast({ name: 'aaaaApp.httpError', content: { status: 0 } });
+=======
+      eventManager.broadcast({ name: 'ffffffApp.httpError', content: { status: 0 } });
+>>>>>>> Stashed changes
       // THEN
       expect(comp.alerts.length).toBe(1);
       expect(comp.alerts[0].message).toBe('Server not reachable');
@@ -49,7 +53,11 @@ describe('Alert Error Component', () => {
 
     it('Should display an alert on status 404', () => {
       // GIVEN
+<<<<<<< Updated upstream
       eventManager.broadcast({ name: 'aaaaApp.httpError', content: { status: 404 } });
+=======
+      eventManager.broadcast({ name: 'ffffffApp.httpError', content: { status: 404 } });
+>>>>>>> Stashed changes
       // THEN
       expect(comp.alerts.length).toBe(1);
       expect(comp.alerts[0].message).toBe('Not found');
@@ -57,8 +65,13 @@ describe('Alert Error Component', () => {
 
     it('Should display an alert on generic error', () => {
       // GIVEN
+<<<<<<< Updated upstream
       eventManager.broadcast({ name: 'aaaaApp.httpError', content: { error: { message: 'Error Message' } } });
       eventManager.broadcast({ name: 'aaaaApp.httpError', content: { error: 'Second Error Message' } });
+=======
+      eventManager.broadcast({ name: 'ffffffApp.httpError', content: { error: { message: 'Error Message' } } });
+      eventManager.broadcast({ name: 'ffffffApp.httpError', content: { error: 'Second Error Message' } });
+>>>>>>> Stashed changes
       // THEN
       expect(comp.alerts.length).toBe(2);
       expect(comp.alerts[0].message).toBe('Error Message');
@@ -80,7 +93,11 @@ describe('Alert Error Component', () => {
           message: 'error.validation',
         },
       });
+<<<<<<< Updated upstream
       eventManager.broadcast({ name: 'aaaaApp.httpError', content: response });
+=======
+      eventManager.broadcast({ name: 'ffffffApp.httpError', content: response });
+>>>>>>> Stashed changes
       // THEN
       expect(comp.alerts.length).toBe(1);
       expect(comp.alerts[0].message).toBe('error.validation');
@@ -94,7 +111,11 @@ describe('Alert Error Component', () => {
         status: 400,
         error: 'Bad Request',
       });
+<<<<<<< Updated upstream
       eventManager.broadcast({ name: 'aaaaApp.httpError', content: response });
+=======
+      eventManager.broadcast({ name: 'ffffffApp.httpError', content: response });
+>>>>>>> Stashed changes
       // THEN
       expect(comp.alerts.length).toBe(1);
       expect(comp.alerts[0].message).toBe('Bad Request');
@@ -116,7 +137,11 @@ describe('Alert Error Component', () => {
           fieldErrors: [{ objectName: 'foo', field: 'minField', message: 'Min' }],
         },
       });
+<<<<<<< Updated upstream
       eventManager.broadcast({ name: 'aaaaApp.httpError', content: response });
+=======
+      eventManager.broadcast({ name: 'ffffffApp.httpError', content: response });
+>>>>>>> Stashed changes
       // THEN
       expect(comp.alerts.length).toBe(1);
       expect(comp.alerts[0].message).toBe('Error on field "MinField"');
@@ -134,7 +159,11 @@ describe('Alert Error Component', () => {
           message: 'error.validation',
         },
       });
+<<<<<<< Updated upstream
       eventManager.broadcast({ name: 'aaaaApp.httpError', content: response });
+=======
+      eventManager.broadcast({ name: 'ffffffApp.httpError', content: response });
+>>>>>>> Stashed changes
       // THEN
       expect(comp.alerts.length).toBe(1);
       expect(comp.alerts[0].message).toBe('Error Message');
@@ -153,7 +182,11 @@ describe('Alert Error Component', () => {
           detail: 'Detailed error message',
         },
       });
+<<<<<<< Updated upstream
       eventManager.broadcast({ name: 'aaaaApp.httpError', content: response });
+=======
+      eventManager.broadcast({ name: 'ffffffApp.httpError', content: response });
+>>>>>>> Stashed changes
       // THEN
       expect(comp.alerts.length).toBe(1);
       expect(comp.alerts[0].message).toBe('Detailed error message');

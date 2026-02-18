@@ -98,17 +98,30 @@ management:
 
 mongock:
   migration-scan-package:
+<<<<<<< Updated upstream
     - e.e.e.config.dbmigrations
 
 spring:
   application:
     name: aaaa
+=======
+    - d.d.d.config.dbmigrations
+
+spring:
+  application:
+    name: ffffff
+>>>>>>> Stashed changes
   cloud:
     consul:
       discovery:
         healthCheckPath: /management/health
+<<<<<<< Updated upstream
         instanceId: aaaa:${spring.application.instance-id:${random.value}}
         service-name: aaaa
+=======
+        instanceId: ffffff:${spring.application.instance-id:${random.value}}
+        service-name: ffffff
+>>>>>>> Stashed changes
       config:
         watch:
           enabled: false
@@ -134,13 +147,21 @@ spring:
       enabled: true
   task:
     execution:
+<<<<<<< Updated upstream
       thread-name-prefix: aaaa-task-
+=======
+      thread-name-prefix: ffffff-task-
+>>>>>>> Stashed changes
       pool:
         core-size: 2
         max-size: 50
         queue-capacity: 10000
     scheduling:
+<<<<<<< Updated upstream
       thread-name-prefix: aaaa-scheduling-
+=======
+      thread-name-prefix: ffffff-scheduling-
+>>>>>>> Stashed changes
       pool:
         size: 2
   thymeleaf:
@@ -182,7 +203,11 @@ info:
 
 jhipster:
   clientApp:
+<<<<<<< Updated upstream
     name: "aaaaApp"
+=======
+    name: "ffffffApp"
+>>>>>>> Stashed changes
   # By default CORS is disabled. Uncomment to enable.
   # cors:
   #   allowed-origins: "http://localhost:8100,http://localhost:9000"
@@ -192,12 +217,21 @@ jhipster:
   #   allow-credentials: true
   #   max-age: 1800
   mail:
+<<<<<<< Updated upstream
     from: aaaa@localhost
   api-docs:
     default-include-pattern: /api/**
     management-include-pattern: /management/**
     title: Aaaa API
     description: Aaaa API documentation
+=======
+    from: ffffff@localhost
+  api-docs:
+    default-include-pattern: /api/**
+    management-include-pattern: /management/**
+    title: Ffffff API
+    description: Ffffff API documentation
+>>>>>>> Stashed changes
     version: 0.0.1
     terms-of-service-url:
     contact-name:

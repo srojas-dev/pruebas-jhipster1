@@ -28,7 +28,11 @@ export const appConfig: ApplicationConfig = {
     importProvidersFrom(ServiceWorkerModule.register('ngsw-worker.js', { enabled: false })),
     importProvidersFrom(HttpClientModule),
     Title,
+<<<<<<< Updated upstream
     { provide: LOCALE_ID, useValue: 'cs' },
+=======
+    { provide: LOCALE_ID, useValue: 'bg' },
+>>>>>>> Stashed changes
     { provide: NgbDateAdapter, useClass: NgbDateDayjsAdapter },
     httpInterceptorProviders,
     { provide: TitleStrategy, useClass: AppPageTitleStrategy },

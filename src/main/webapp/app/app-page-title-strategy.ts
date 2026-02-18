@@ -11,7 +11,11 @@ export class AppPageTitleStrategy extends TitleStrategy {
   override updateTitle(routerState: RouterStateSnapshot): void {
     let pageTitle = this.buildTitle(routerState);
     if (!pageTitle) {
+<<<<<<< Updated upstream
       pageTitle = 'Aaaa';
+=======
+      pageTitle = 'Ffffff';
+>>>>>>> Stashed changes
     }
     document.title = pageTitle;
   }

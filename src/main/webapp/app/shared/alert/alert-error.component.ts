@@ -20,12 +20,20 @@ export class AlertErrorComponent implements OnDestroy {
   httpErrorListener: Subscription;
 
   constructor(private alertService: AlertService, private eventManager: EventManager) {
+<<<<<<< Updated upstream
     this.errorListener = eventManager.subscribe('aaaaApp.error', (response: EventWithContent<unknown> | string) => {
+=======
+    this.errorListener = eventManager.subscribe('ffffffApp.error', (response: EventWithContent<unknown> | string) => {
+>>>>>>> Stashed changes
       const errorResponse = (response as EventWithContent<AlertError>).content;
       this.addErrorAlert(errorResponse.message);
     });
 
+<<<<<<< Updated upstream
     this.httpErrorListener = eventManager.subscribe('aaaaApp.httpError', (response: EventWithContent<unknown> | string) => {
+=======
+    this.httpErrorListener = eventManager.subscribe('ffffffApp.httpError', (response: EventWithContent<unknown> | string) => {
+>>>>>>> Stashed changes
       const httpErrorResponse = (response as EventWithContent<HttpErrorResponse>).content;
       switch (httpErrorResponse.status) {
         // connection refused, server not reachable

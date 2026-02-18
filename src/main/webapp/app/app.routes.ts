@@ -21,7 +21,11 @@ const routes: Routes = [
     outlet: 'navbar',
   },
   {
+<<<<<<< Updated upstream
     path: 'aaaa',
+=======
+    path: 'ffffff',
+>>>>>>> Stashed changes
     loadChildren: () => import(`./entities/entity.routes`),
   },
   ...errorRoute,

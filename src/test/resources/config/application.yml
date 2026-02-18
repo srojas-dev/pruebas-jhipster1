@@ -16,7 +16,11 @@
 
 mongock:
   migration-scan-package:
+<<<<<<< Updated upstream
     - e.e.e.config.dbmigrations
+=======
+    - d.d.d.config.dbmigrations
+>>>>>>> Stashed changes
   mongo-db:
     read-concern: local
     write-concern:
@@ -25,7 +29,11 @@ mongock:
 
 spring:
   application:
+<<<<<<< Updated upstream
     name: aaaa
+=======
+    name: ffffff
+>>>>>>> Stashed changes
   cloud:
     consul:
       discovery:
@@ -45,13 +53,21 @@ spring:
     basename: i18n/messages
   task:
     execution:
+<<<<<<< Updated upstream
       thread-name-prefix: aaaa-task-
+=======
+      thread-name-prefix: ffffff-task-
+>>>>>>> Stashed changes
       pool:
         core-size: 1
         max-size: 50
         queue-capacity: 10000
     scheduling:
+<<<<<<< Updated upstream
       thread-name-prefix: aaaa-scheduling-
+=======
+      thread-name-prefix: ffffff-scheduling-
+>>>>>>> Stashed changes
       pool:
         size: 20
   thymeleaf:
@@ -75,9 +91,15 @@ server:
 # ===================================================================
 jhipster:
   clientApp:
+<<<<<<< Updated upstream
     name: "aaaaApp"
   mail:
     from: aaaa@localhost.com
+=======
+    name: "ffffffApp"
+  mail:
+    from: ffffff@localhost.com
+>>>>>>> Stashed changes
     base-url: http://127.0.0.1:8080
   logging:
     # To test json console appender

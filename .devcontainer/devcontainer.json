@@ -2,9 +2,13 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.209.6/containers/java
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "name": "Aaaa",
 =======
   "name": "Ffffff",
+>>>>>>> Stashed changes
+=======
+  "name": "Asdasdasd",
 >>>>>>> Stashed changes
   "build": {
     "dockerfile": "Dockerfile",
@@ -30,7 +34,10 @@
 
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
+<<<<<<< Updated upstream
         "angular.ng-template",
+=======
+>>>>>>> Stashed changes
         "christian-kohler.npm-intellisense",
         "firsttris.vscode-jest-runner",
         "ms-vscode.vscode-typescript-tslint-plugin",
@@ -44,7 +51,11 @@
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
+<<<<<<< Updated upstream
     4200,
+=======
+    9060,
+>>>>>>> Stashed changes
     3001,
     9000,
     8081

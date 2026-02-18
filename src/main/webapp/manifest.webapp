@@ -1,5 +1,6 @@
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "name": "Aaaa",
   "short_name": "Aaaa",
 =======
@@ -9,21 +10,40 @@
   "icons": [
     {
       "src": "./content/images/jhipster_family_member_0_head-192.png",
+=======
+  "name": "Asdasdasd",
+  "short_name": "Asdasdasd",
+  "icons": [
+    {
+      "src": "./content/images/jhipster_family_member_2_head-192.png",
+>>>>>>> Stashed changes
       "sizes": "192x192",
       "type": "image/png"
     },
     {
+<<<<<<< Updated upstream
       "src": "./content/images/jhipster_family_member_0_head-256.png",
+=======
+      "src": "./content/images/jhipster_family_member_2_head-256.png",
+>>>>>>> Stashed changes
       "sizes": "256x256",
       "type": "image/png"
     },
     {
+<<<<<<< Updated upstream
       "src": "./content/images/jhipster_family_member_0_head-384.png",
+=======
+      "src": "./content/images/jhipster_family_member_2_head-384.png",
+>>>>>>> Stashed changes
       "sizes": "384x384",
       "type": "image/png"
     },
     {
+<<<<<<< Updated upstream
       "src": "./content/images/jhipster_family_member_0_head-512.png",
+=======
+      "src": "./content/images/jhipster_family_member_2_head-512.png",
+>>>>>>> Stashed changes
       "sizes": "512x512",
       "type": "image/png"
     }

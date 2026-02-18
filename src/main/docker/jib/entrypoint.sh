@@ -37,7 +37,11 @@ file_env 'SPRING_LIQUIBASE_PASSWORD'
 file_env 'JHIPSTER_REGISTRY_PASSWORD'
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 exec java ${JAVA_OPTS} -noverify -XX:+AlwaysPreTouch -Djava.security.egd=file:/dev/./urandom -cp /app/resources/:/app/classes/:/app/libs/* "e.e.e.AaaaApp"  "$@"
 =======
 exec java ${JAVA_OPTS} -noverify -XX:+AlwaysPreTouch -Djava.security.egd=file:/dev/./urandom -cp /app/resources/:/app/classes/:/app/libs/* "d.d.d.FfffffApp"  "$@"
+>>>>>>> Stashed changes
+=======
+exec java ${JAVA_OPTS} -noverify -XX:+AlwaysPreTouch -Djava.security.egd=file:/dev/./urandom -cp /app/resources/:/app/classes/:/app/libs/* "t.t.t.AsdasdasdApp"  "$@"
 >>>>>>> Stashed changes

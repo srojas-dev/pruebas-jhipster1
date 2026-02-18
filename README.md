@@ -1,7 +1,11 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 # aaaa
 =======
 # ffffff
+>>>>>>> Stashed changes
+=======
+# asdasdasd
 >>>>>>> Stashed changes
 
 This application was generated using JHipster 8.1.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v8.1.0](https://www.jhipster.tech/documentation-archive/v8.1.0).
@@ -178,7 +182,11 @@ You will only need to run this command when dependencies change in [package.json
 npm install
 ```
 
+<<<<<<< Updated upstream
 We use npm scripts and [Angular CLI][] with [Webpack][] as our build system.
+=======
+We use npm scripts and [Webpack][] as our build system.
+>>>>>>> Stashed changes
 
 If you are using hazelcast as a cache, you will have to launch a cache server.
 To start your cache server, run:
@@ -206,12 +214,29 @@ The `npm run` command will list all of the scripts available to run for this pro
 
 JHipster ships with PWA (Progressive Web App) support, and it's turned off by default. One of the main components of a PWA is a service worker.
 
+<<<<<<< Updated upstream
 The service worker initialization code is disabled by default. To enable it, uncomment the following code in `src/main/webapp/app/app.config.ts`:
 
 ```typescript
 ServiceWorkerModule.register('ngsw-worker.js', { enabled: false }),
 ```
 
+=======
+The service worker initialization code is commented out by default. To enable it, uncomment the following code in `src/main/webapp/index.html`:
+
+```html
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+        .register('./service-worker.js')
+        .then(function() { console.log('Service Worker Registered'); });
+    }
+</script>
+```
+
+Note: [Workbox](https://developers.google.com/web/tools/workbox/) powers JHipster's service worker. It dynamically generates the `service-worker.js` file.
+
+>>>>>>> Stashed changes
 ### Managing dependencies
 
 For example, to add [Leaflet][] library as a runtime dependency of your application, you would run following command:
@@ -227,6 +252,7 @@ npm install --save-dev --save-exact @types/leaflet
 ```
 
 Then you would import the JS and CSS files specified in library's installation instructions so that [Webpack][] knows about them:
+<<<<<<< Updated upstream
 Edit [src/main/webapp/app/app.config.ts](src/main/webapp/app/app.config.ts) file:
 
 ```
@@ -239,6 +265,8 @@ Edit [src/main/webapp/content/scss/vendor.scss](src/main/webapp/content/scss/ven
 @import 'leaflet/dist/leaflet.css';
 ```
 
+=======
+>>>>>>> Stashed changes
 Note: There are still a few other things remaining to do for Leaflet that we won't detail here.
 
 For further instructions on how to develop with JHipster, have a look at [Using JHipster in development][].
@@ -275,6 +303,7 @@ npm watch # alias for `npm start` and `npm run backend:start` in parallel
 ```
 
 
+<<<<<<< Updated upstream
 ### Using Angular CLI
 
 You can also use [Angular CLI][] to generate some custom client code.
@@ -294,14 +323,20 @@ update src/main/webapp/app/app.config.ts
 ```
 
 
+=======
+>>>>>>> Stashed changes
 ## Building for production
 
 ### Packaging as jar
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 To build the final jar and optimize the aaaa application for production, run:
 =======
 To build the final jar and optimize the ffffff application for production, run:
+>>>>>>> Stashed changes
+=======
+To build the final jar and optimize the asdasdasd application for production, run:
 >>>>>>> Stashed changes
 
 ```
@@ -450,4 +485,7 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [Jest]: https://facebook.github.io/jest/
 [Leaflet]: https://leafletjs.com/
 [DefinitelyTyped]: https://definitelytyped.org/
+<<<<<<< Updated upstream
 [Angular CLI]: https://cli.angular.io/
+=======
+>>>>>>> Stashed changes

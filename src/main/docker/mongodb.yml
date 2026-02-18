@@ -1,8 +1,12 @@
 # This configuration is intended for development purpose, it's **your** responsibility to harden it for production
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 name: aaaa
 =======
 name: ffffff
+>>>>>>> Stashed changes
+=======
+name: asdasdasd
 >>>>>>> Stashed changes
 services:
   mongodb:
@@ -13,9 +17,13 @@ services:
       - 127.0.0.1:27017:27017
     # volumes:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     #   - ~/volumes/jhipster/aaaa/mongodb/:/data/db/
 =======
     #   - ~/volumes/jhipster/ffffff/mongodb/:/data/db/
+>>>>>>> Stashed changes
+=======
+    #   - ~/volumes/jhipster/asdasdasd/mongodb/:/data/db/
 >>>>>>> Stashed changes
     healthcheck:
       test: ['CMD', 'echo', "'db.runCommand(\"ping\").ok'", '|', 'mongo', 'localhost:27017/test', '--quiet']

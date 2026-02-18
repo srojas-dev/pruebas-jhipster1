@@ -5,6 +5,7 @@
     "authType": "oauth2",
     "authenticationType": "oauth2",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "baseName": "aaaa",
     "clientFramework": "angular",
     "creationTimestamp": 1771409881883,
@@ -41,6 +42,28 @@
     ],
     "nativeLanguage": "bg",
     "packageName": "d.d.d",
+>>>>>>> Stashed changes
+=======
+    "baseName": "asdasdasd",
+    "clientFramework": "react",
+    "creationTimestamp": 1771410513441,
+    "dataBaseName": "asdasdasd",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "devServerPort": 9060,
+    "enableHibernateCache": false,
+    "enableTranslation": false,
+    "entities": [],
+    "frontFramework": "react",
+    "internalization": false,
+    "javaPackageName": "t.t.t",
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "NjVmMDBjZTU5YmMyODUwNzg4OWY4MWZhYWJiYzMyZGFlZTA4OTJiNDYwZTQzZjU1M2E5OTVmZmRhOGY1ZjBhMjg1MGFlNGRjMzMyNTBmZmQyYzcxN2JjYmRkZDdhYzU2NWJiMDMyMTc2MWNlYTkzMjc2MDI5ZTQ4NWFiMDljODU=",
+    "languages": [
+      "es"
+    ],
+    "nativeLanguage": "es",
+    "packageName": "t.t.t",
 >>>>>>> Stashed changes
     "prodDatabaseType": "mongodb",
     "skipUserManagement": true

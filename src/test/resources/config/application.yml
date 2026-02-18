@@ -17,9 +17,13 @@
 mongock:
   migration-scan-package:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - e.e.e.config.dbmigrations
 =======
     - d.d.d.config.dbmigrations
+>>>>>>> Stashed changes
+=======
+    - t.t.t.config.dbmigrations
 >>>>>>> Stashed changes
   mongo-db:
     read-concern: local
@@ -30,9 +34,13 @@ mongock:
 spring:
   application:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     name: aaaa
 =======
     name: ffffff
+>>>>>>> Stashed changes
+=======
+    name: asdasdasd
 >>>>>>> Stashed changes
   cloud:
     consul:
@@ -54,9 +62,13 @@ spring:
   task:
     execution:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       thread-name-prefix: aaaa-task-
 =======
       thread-name-prefix: ffffff-task-
+>>>>>>> Stashed changes
+=======
+      thread-name-prefix: asdasdasd-task-
 >>>>>>> Stashed changes
       pool:
         core-size: 1
@@ -64,9 +76,13 @@ spring:
         queue-capacity: 10000
     scheduling:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       thread-name-prefix: aaaa-scheduling-
 =======
       thread-name-prefix: ffffff-scheduling-
+>>>>>>> Stashed changes
+=======
+      thread-name-prefix: asdasdasd-scheduling-
 >>>>>>> Stashed changes
       pool:
         size: 20
@@ -92,6 +108,7 @@ server:
 jhipster:
   clientApp:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     name: "aaaaApp"
   mail:
     from: aaaa@localhost.com
@@ -99,6 +116,11 @@ jhipster:
     name: "ffffffApp"
   mail:
     from: ffffff@localhost.com
+>>>>>>> Stashed changes
+=======
+    name: "asdasdasdApp"
+  mail:
+    from: asdasdasd@localhost.com
 >>>>>>> Stashed changes
     base-url: http://127.0.0.1:8080
   logging:

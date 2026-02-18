@@ -4,6 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <groupId>e.e.e</groupId>
     <artifactId>aaaa</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -17,6 +18,14 @@
     <packaging>jar</packaging>
     <name>Ffffff</name>
     <description>Description for Ffffff</description>
+>>>>>>> Stashed changes
+=======
+    <groupId>t.t.t</groupId>
+    <artifactId>asdasdasd</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>Asdasdasd</name>
+    <description>Description for Asdasdasd</description>
 >>>>>>> Stashed changes
 
     <properties>
@@ -34,9 +43,13 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <start-class>e.e.e.AaaaApp</start-class>
 =======
         <start-class>d.d.d.FfffffApp</start-class>
+>>>>>>> Stashed changes
+=======
+        <start-class>t.t.t.AsdasdasdApp</start-class>
 >>>>>>> Stashed changes
         <argLine>-Djava.security.egd=file:/dev/./urandom -Xmx1G</argLine>
         <m2e.apt.activation>jdt_apt</m2e.apt.activation>
@@ -416,9 +429,13 @@
                         </from>
                         <to>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             <image>aaaa:latest</image>
 =======
                             <image>ffffff:latest</image>
+>>>>>>> Stashed changes
+=======
+                            <image>asdasdasd:latest</image>
 >>>>>>> Stashed changes
                         </to>
                         <container>
@@ -1023,7 +1040,11 @@
                                         <include>package-lock.json</include>
                                         <include>package.json</include>
                                         <include>tsconfig.json</include>
+<<<<<<< Updated upstream
                                         <include>tsconfig.app.json</include>
+=======
+                                        <include>.postcss.config.js</include>
+>>>>>>> Stashed changes
                                         <include>webpack/*.*</include>
                                     </includes>
                                     <excludes>

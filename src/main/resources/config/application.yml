@@ -99,6 +99,7 @@ management:
 mongock:
   migration-scan-package:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - e.e.e.config.dbmigrations
 
 spring:
@@ -111,16 +112,28 @@ spring:
   application:
     name: ffffff
 >>>>>>> Stashed changes
+=======
+    - t.t.t.config.dbmigrations
+
+spring:
+  application:
+    name: asdasdasd
+>>>>>>> Stashed changes
   cloud:
     consul:
       discovery:
         healthCheckPath: /management/health
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         instanceId: aaaa:${spring.application.instance-id:${random.value}}
         service-name: aaaa
 =======
         instanceId: ffffff:${spring.application.instance-id:${random.value}}
         service-name: ffffff
+>>>>>>> Stashed changes
+=======
+        instanceId: asdasdasd:${spring.application.instance-id:${random.value}}
+        service-name: asdasdasd
 >>>>>>> Stashed changes
       config:
         watch:
@@ -148,9 +161,13 @@ spring:
   task:
     execution:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       thread-name-prefix: aaaa-task-
 =======
       thread-name-prefix: ffffff-task-
+>>>>>>> Stashed changes
+=======
+      thread-name-prefix: asdasdasd-task-
 >>>>>>> Stashed changes
       pool:
         core-size: 2
@@ -158,9 +175,13 @@ spring:
         queue-capacity: 10000
     scheduling:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       thread-name-prefix: aaaa-scheduling-
 =======
       thread-name-prefix: ffffff-scheduling-
+>>>>>>> Stashed changes
+=======
+      thread-name-prefix: asdasdasd-scheduling-
 >>>>>>> Stashed changes
       pool:
         size: 2
@@ -204,9 +225,13 @@ info:
 jhipster:
   clientApp:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     name: "aaaaApp"
 =======
     name: "ffffffApp"
+>>>>>>> Stashed changes
+=======
+    name: "asdasdasdApp"
 >>>>>>> Stashed changes
   # By default CORS is disabled. Uncomment to enable.
   # cors:
@@ -217,6 +242,7 @@ jhipster:
   #   allow-credentials: true
   #   max-age: 1800
   mail:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     from: aaaa@localhost
   api-docs:
@@ -231,6 +257,14 @@ jhipster:
     management-include-pattern: /management/**
     title: Ffffff API
     description: Ffffff API documentation
+>>>>>>> Stashed changes
+=======
+    from: asdasdasd@localhost
+  api-docs:
+    default-include-pattern: /api/**
+    management-include-pattern: /management/**
+    title: Asdasdasd API
+    description: Asdasdasd API documentation
 >>>>>>> Stashed changes
     version: 0.0.1
     terms-of-service-url:

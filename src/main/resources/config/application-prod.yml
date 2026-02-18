@@ -18,9 +18,13 @@ logging:
     ROOT: INFO
     tech.jhipster: INFO
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     e.e.e: INFO
 =======
     d.d.d: INFO
+>>>>>>> Stashed changes
+=======
+    t.t.t: INFO
 >>>>>>> Stashed changes
 
 management:
@@ -50,9 +54,13 @@ spring:
   data:
     mongodb:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       uri: mongodb://localhost:27017/aaaa
 =======
       uri: mongodb://localhost:27017/ffffff
+>>>>>>> Stashed changes
+=======
+      uri: mongodb://localhost:27017/asdasdasd
 >>>>>>> Stashed changes
   thymeleaf:
     cache: true
@@ -60,9 +68,13 @@ spring:
 # ===================================================================
 # To enable TLS in production, generate a certificate using:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 # keytool -genkey -alias aaaa -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore keystore.p12 -validity 3650
 =======
 # keytool -genkey -alias ffffff -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore keystore.p12 -validity 3650
+>>>>>>> Stashed changes
+=======
+# keytool -genkey -alias asdasdasd -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore keystore.p12 -validity 3650
 >>>>>>> Stashed changes
 #
 # You can also use Let's Encrypt:

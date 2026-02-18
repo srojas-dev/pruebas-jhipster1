@@ -1,0 +1,19 @@
+# This configuration is intended for development purpose, it's **your** responsibility to harden it for production
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+name: aaaa
+=======
+name: ffffff
+>>>>>>> Stashed changes
+=======
+name: asdasdasd
+>>>>>>> Stashed changes
+=======
+name: agghdrfec
+>>>>>>> Stashed changes
+services:
+  zipkin:
+    image: openzipkin/zipkin:3.0
+    ports:
+      - 127.0.0.1:9411:9411

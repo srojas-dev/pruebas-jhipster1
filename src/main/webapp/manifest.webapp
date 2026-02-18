@@ -1,0 +1,76 @@
+{
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  "name": "Aaaa",
+  "short_name": "Aaaa",
+=======
+  "name": "Ffffff",
+  "short_name": "Ffffff",
+>>>>>>> Stashed changes
+  "icons": [
+    {
+      "src": "./content/images/jhipster_family_member_0_head-192.png",
+=======
+  "name": "Asdasdasd",
+  "short_name": "Asdasdasd",
+  "icons": [
+    {
+      "src": "./content/images/jhipster_family_member_2_head-192.png",
+>>>>>>> Stashed changes
+=======
+  "name": "Agghdrfec",
+  "short_name": "Agghdrfec",
+  "icons": [
+    {
+      "src": "./content/images/jhipster_family_member_1_head-192.png",
+>>>>>>> Stashed changes
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      "src": "./content/images/jhipster_family_member_0_head-256.png",
+=======
+      "src": "./content/images/jhipster_family_member_2_head-256.png",
+>>>>>>> Stashed changes
+=======
+      "src": "./content/images/jhipster_family_member_1_head-256.png",
+>>>>>>> Stashed changes
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      "src": "./content/images/jhipster_family_member_0_head-384.png",
+=======
+      "src": "./content/images/jhipster_family_member_2_head-384.png",
+>>>>>>> Stashed changes
+=======
+      "src": "./content/images/jhipster_family_member_1_head-384.png",
+>>>>>>> Stashed changes
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      "src": "./content/images/jhipster_family_member_0_head-512.png",
+=======
+      "src": "./content/images/jhipster_family_member_2_head-512.png",
+>>>>>>> Stashed changes
+=======
+      "src": "./content/images/jhipster_family_member_1_head-512.png",
+>>>>>>> Stashed changes
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#e0e0e0",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait"
+}

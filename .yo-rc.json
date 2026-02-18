@@ -1,0 +1,88 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "authManagement": false,
+    "authType": "oauth2",
+    "authenticationType": "oauth2",
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    "baseName": "aaaa",
+    "clientFramework": "angular",
+    "creationTimestamp": 1771409881883,
+    "dataBaseName": "aaaa",
+=======
+    "baseName": "ffffff",
+    "clientFramework": "angular",
+    "creationTimestamp": 1771410149920,
+    "dataBaseName": "ffffff",
+>>>>>>> Stashed changes
+=======
+    "baseName": "agghdrfec",
+    "clientFramework": "angular",
+    "creationTimestamp": 1771410654253,
+    "dataBaseName": "agghdrfec",
+>>>>>>> Stashed changes
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "devServerPort": 4200,
+    "enableHibernateCache": false,
+    "enableTranslation": false,
+    "entities": [],
+    "frontFramework": "angular",
+    "internalization": false,
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    "javaPackageName": "e.e.e",
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "MWY2MWFkNTUxZTQ0NThiNzAyNzRmYmFmNjNiNGNkNTNhMzVjZjkxODRhOTk1NzliM2YxZTUwMTY5YzZkNjc1M2ZkNmYxMjllZGU3ZjhkYThmMjBiMTNiNDFhNzBhZTRiZjNiNGEwYTNhYzIwNmUwNjI2ODNhZTUxYThlMTUyN2I=",
+=======
+    "javaPackageName": "t.t.t",
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "Njc5MTM5ZjYxMWEwMDVhNGI2ZTgyMzBiNWJmZjk3NTVhOTQ1YmY4NjMwOTU1NzVjY2ZhMjQ2NWFhODAxMWU5ODhhZWNiY2FkOWNmOTIxNGJjN2U5ZjY3NzQ4NWM2YmM5NjAxNjg5YTU0OTNlMWIwMzFkYjhlMjlkMDlmMDg3ZDA=",
+>>>>>>> Stashed changes
+    "languages": [
+      "cs"
+    ],
+    "nativeLanguage": "cs",
+<<<<<<< Updated upstream
+    "packageName": "e.e.e",
+=======
+    "javaPackageName": "d.d.d",
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "NzFhOTgzYmFjNjFhZjNlNWU3Zjg2NGMzNTJmZGE5MzJiYTY0NzA4NWE0YzlmYjFhMjlmOGVlZDNjNTBlNmUwMjNmMzY0NTliNTgzMmU1ZmFlMzFiOGI2MmNkZjY4ZDI0MmRkMDA0NTA1ZWY5ZGMxNDQ5MjIwYjk1ZTEzZTk1Yjk=",
+    "languages": [
+      "bg"
+    ],
+    "nativeLanguage": "bg",
+    "packageName": "d.d.d",
+>>>>>>> Stashed changes
+=======
+    "baseName": "asdasdasd",
+    "clientFramework": "react",
+    "creationTimestamp": 1771410513441,
+    "dataBaseName": "asdasdasd",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "devServerPort": 9060,
+    "enableHibernateCache": false,
+    "enableTranslation": false,
+    "entities": [],
+    "frontFramework": "react",
+    "internalization": false,
+    "javaPackageName": "t.t.t",
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "NjVmMDBjZTU5YmMyODUwNzg4OWY4MWZhYWJiYzMyZGFlZTA4OTJiNDYwZTQzZjU1M2E5OTVmZmRhOGY1ZjBhMjg1MGFlNGRjMzMyNTBmZmQyYzcxN2JjYmRkZDdhYzU2NWJiMDMyMTc2MWNlYTkzMjc2MDI5ZTQ4NWFiMDljODU=",
+    "languages": [
+      "es"
+    ],
+    "nativeLanguage": "es",
+    "packageName": "t.t.t",
+>>>>>>> Stashed changes
+=======
+    "packageName": "t.t.t",
+>>>>>>> Stashed changes
+    "prodDatabaseType": "mongodb",
+    "skipUserManagement": true
+  }
+}
